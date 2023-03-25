@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.stepdefinition.ZiTestNG">
+        <methods>
+          <include name="enter_invalid_first_name_and_verify_the_message"/>
+          <include name="enter_valid_data_in_all_input_fields_and_verify_the_message"/>
+          <include name="enter_valid_email_id_and_verify_message"/>
+          <include name="verify_test_bot_button_to_chat_with_bot_again"/>
+          <include name="verify_back_button_and_greeting_message"/>
+          <include name="verify_the_welcome_message_and_click_on_the_bot"/>
+          <include name="verify_the_restart_conversation_button"/>
+          <include name="verify_that_after__valid_inputs_can_continue_the_conversation"/>
+          <include name="verify_the_function_of_open_chat_button"/>
+          <include name="enter_invalid_email_id_and_verify_error_message"/>
+          <include name="verify_the_function_of_close_button"/>
+          <include name="verify_if_the_chat_bot_displayed_on_the_screen"/>
+        </methods>
+      </class> <!-- com.stepdefinition.ZiTestNG -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
